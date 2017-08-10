@@ -1,0 +1,364 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="css.css" rel="stylesheet">
+<script>
+!function() {
+	var scale = 1;
+	var ratio = window.devicePixelRatio;
+	scale = scale / window.devicePixelRatio;
+	var meta = document.createElement("meta");
+	meta.setAttribute("name","viewport");
+	meta.setAttribute("content","width=device-width,initial-scale = "+scale+",minimum-scale = "+scale+", maximum-scale = "+scale+", user-scalable = no");
+	document.head.appendChild(meta);
+}();
+</script>
+<script>
+ fn();
+window.addEventListener("resize",fn);
+function fn() {
+	var html = document.querySelector("html");
+	var width = html.getBoundingClientRect().width;
+	html.style.fontSize = width/15 + "px";
+}
+</script>
+</head>
+<body>
+<header id="header">
+	<span>
+    	<a href="#" class="xiaotupian"></a>
+    	<a href="#" class="soayisao">扫啊扫</a>
+    </span>
+    <form class="topform">
+    	<input type="text" class="seacrh">
+        <input type="submit" value="" class="submit">
+        <a href="#"></a>
+    </form>
+    <strong>
+    	<a href="#" class="strongtu"></a>
+        <a href="#" class="strongzi">消息</a>
+    </strong>
+</header>
+<section id="scroll">
+<div id="box">
+    <ul class="topimg clearfix">
+            <li class="img">
+            	<a href="#"><img src="img/topimg.jpg"></a>
+            </li>
+            <li class="img">
+            	<a href="#"><img src="img/topimg2.jpg"></a>
+            </li>
+            <li class="img">
+            	<a href="#"><img src="img/topimg3.jpg"></a>
+            </li>
+            <li class="img">
+            	<a href="#"><img src="img/topimg4.jpg"></a>
+            </li>
+            <li class="img">
+            	<a href="#"><img src="img/topimg.jpg"></a>
+            </li>
+    </ul>
+</div>
+<section id="Optional">
+	<span></span>
+</section>
+<ul id="title" class="clearfix">
+	<li class="titlein">
+		<a href="#">
+    		<span class="shop"></span>
+        	<p>京东超市</p>
+    	</a>
+    </li>
+    <li class="titlein">
+		<a href="#">
+    		<span class="shop2"></span>
+        	<p>全球购</p>
+    	</a>
+    </li class="titlein">
+    <li class="titlein">
+		<a href="#">
+    		<span class="shop3"></span>
+        	<p>服装城</p>
+    	</a>
+    </li>
+    <li class="titlein">
+		<a href="#">
+    		<span class="shop4"></span>
+        	<p>京东生鲜</p>
+    	</a>
+    </li>
+    <li class="titlein titlein1">
+		<a href="#">
+    		<span class="shop5"></span>
+        	<p>京东到家</p>
+    	</a>
+    </li>
+    <li class="titlein">
+		<a href="#">
+    		<span class="shop6"></span>
+        	<p>充值中心</p>
+    	</a>
+    </li>
+    <li class="titlein">
+		<a href="#">
+    		<span class="shop7"></span>
+        	<p>零取京豆</p>
+    	</a>
+    </li>
+    <li class="titlein">
+		<a href="#">
+    		<span class="shop8"></span>
+        	<p>领券</p>
+    	</a>
+    </li>
+    <li class="titlein">
+		<a href="#">
+    		<span class="shop9"></span>
+        	<p>京东金融</p>
+    	</a>
+    </li>
+    <li class="titlein titlein1">
+		<a href="#">
+    		<span class="shop10"></span>
+        	<p>全部</p>
+    	</a>
+    </li>
+</ul>
+<section id="hot">
+	<div class="hotin clearfix">
+    	<span><a href="#"></a></span>
+        <p>
+        	<mark>:</mark> <a href="#" class="hota"><em>热</em>恋住你的TA，珠宝首饰199减100</a>
+        </p>
+        <strong><a href="#">更多</a></strong>
+    </div>
+</section>
+<section id="seckill">
+	<div class="seckillin clearfix">
+    	<a href="#" class="seckillleft"></a>
+        <a href="#" class="seckillright">京选尘货轮番秒<span></span></a>
+    </div>
+    <div class="seckilllower">
+    	<img src="img/seckillimg.jpg">
+    </div>
+</section>
+<section id="menu" class="clearfix">
+	<div class="Ranking">
+    <a href="#">
+    	<img src="img/findimg.jpg">
+    </a>
+    </div>
+    <div class="find">
+    <a href="#">
+    	<img src="img/headlines.jpg">
+    </a>
+    </div>
+    <div class="headlines">
+    <a href="#">
+    	<img src="img/Rankingimg.jpg">
+    </a>
+    </div>
+    <div class="Flash">
+    <a href="#">
+    	<img src="img/Flash.jpg">
+    </a>
+    </div>
+</section>
+<section id="life">
+	<div class="lifeimg">
+    	<img src="img/life.jpg">
+    </div>
+    <ul class="lifein clearfix">
+    	<li class="Samsung">
+        	<a href="#"><img src="img/Samsung.jpg"></a>
+        </li>
+        <li class="house">
+            <a href="#">
+            	<img src="img/house.jpg">
+            </a>
+        </li>
+        <li class="Supermarket">
+        	<a href="#">
+            	<img src="img/Supermarket.jpg">
+            </a>
+        </li>
+        <li class="Lovehome">
+        	<a href="#">
+            	<img src="img/Lovehome.jpg">
+            </a>
+        </li>
+    </ul>
+    <ul class="lifelower clearfix">
+    	<li class="bady">
+        	<a href="#">
+            	<img src="img/bady.jpg">
+            </a>
+        </li>
+        <li class="beautiful">
+        	<a href="#">
+            	<img src="img/beautiful.jpg">
+            </a>
+        </li>
+        <li class="Chowhound">
+        	<a href="#">
+            	<img src="img/Chowhound.jpg">
+            </a>
+        </li>
+        <li class="shopping">
+        	<a href="#">
+            	<img src="img/shopping.jpg">
+            </a>
+        </li>
+    </ul>
+</section>
+<div id="brand">
+	<a href=""></a>
+</div>
+<section id="quality">
+	<div class="qualityimg">
+    </div>
+    <ul class="qualityin clearfix">
+    	<li class="Self">
+        	<a href="#"></a>
+        </li>
+        <li class="World">
+            <a href="#"></a>
+        </li>
+        <li class="motion">
+        	<a href="#"></a>
+        </li>
+        <li class="suit">
+        	<a href="#"></a>
+        </li>
+        <li class="jewelry">
+        	<a href="#"></a>
+        </li>
+        <li class="Master">
+        	<a href="#"></a>
+        </li>
+    </ul>
+</section>
+<div id="brandlow">
+	<a href=""></a>
+</div>
+<section id="qualitylow">
+	<div class="qualityimg1">
+    </div>
+    <ul class="qualityin2 clearfix">
+    	<li class="Self3">
+        	<a href="#"></a>
+        </li>
+        <li class="World4">
+            <a href="#"></a>
+        </li>
+        <li class="motion5">
+        	<a href="#"></a>
+        </li>
+        <li class="suit6">
+        	<a href="#"></a>
+        </li>
+        <li class="jewelry7">
+        	<a href="#"></a>
+        </li>
+        <li class="Master8">
+        	<a href="#"></a>
+        </li>
+        <li class="suit81">
+        	<a href="#"></a>
+        </li>
+        <li class="suit82">
+        	<a href="#"></a>
+        </li>
+        <li class="suit83">
+        	<a href="#"></a>
+        </li>
+    </ul>
+</section>
+<div id="upper">
+	<a href=""></a>
+</div>
+<section id="Monomer">
+	<div class="Monomerimg">
+    </div>
+    <ul class="Monomerin clearfix">
+    	<li class="clothing">
+        	<a href="#"></a>
+        </li>
+        <li class="Digital">
+            <a href="#"></a>
+        </li>
+        <li class="Beauty">
+        	<a href="#"></a>
+        </li>
+        <li class="Home">
+        	<a href="#"></a>
+        </li>
+        <li class="clean">
+        	<a href="#"></a>
+        </li>
+        <li class="office">
+        	<a href="#"></a>
+        </li>
+        <li class="bags">
+        	<a href="#"></a>
+        </li>
+        <li class="Small">
+        	<a href="#"></a>
+        </li>
+        <li class="fresh">
+        	<a href="#"></a>
+        </li>
+        <li class="decoration">
+        	<a href="#"></a>
+        </li>
+        <li class="wine">
+        	<a href="#"></a>
+        </li>
+        <li class="food">
+        	<a href="#"></a>
+        </li>
+    </ul>
+</section>
+<div id="forhome">
+	<a href=""></a>
+</div>
+<section id="exclusive">
+	<div class="exclusivein">
+    </div>
+    <div class="Flagship"></div>
+</section>
+<section id="Recommend">
+	<h3>/为你推荐/</h3>
+    <ul class="Recommendin clearfix">
+    	<li class="Kim">
+        	<a href="#"></a>
+        </li>
+        <li class="mask">
+            <a href="#"></a>
+        </li>
+        <li class="move">
+        	<a href="#"></a>
+        </li>
+        <li class="shoes">
+        	<a href="#"></a>
+        </li>
+        <li class="bar">
+        	<a href="#"></a>
+        </li>
+        <li class="Skin">
+        	<a href="#"></a>
+        </li>
+     </ul>
+</section>
+</section>
+<footer id="footer">
+	<a href="#" class="page"><span></span><strong>首页</strong></a>
+    <a href="#" class="class"><span></span><strong>分类</strong></a>
+    <a href="#" class="footfind"><span></span><strong>发现</strong></a>
+    <a href="#" class="vehicle"><span></span><strong>购物车</strong></a>
+     <a href="#" class="my"><span ></span><strong>我的</strong></a>
+</footer>
+</body>
+</html>
